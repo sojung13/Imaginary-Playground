@@ -94,7 +94,7 @@
   - 각 캐릭터를 클릭(터치)하면 우주 게임 맵, 정글 게임 맵, 바다 게임 맵 및 이벤트성 크리스마스 마을 맵으로 이동 가능합니다.
 
 </br>
-![image-20230612023331766](./readme_assets/jungle1.png)
+![image-20230612024640252](./readme_assets/jungle1.png)
 
 ![image-20230612023331766](./readme_assets/jungle2.png)
 
