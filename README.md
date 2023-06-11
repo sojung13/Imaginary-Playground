@@ -49,48 +49,30 @@
 </br>
 
 ## 👨‍👧‍👧 요들(요셉과 아이들)팀 소개
-🦉 **팀장 양요셉**
-
-- Back-end
-- 서버 API 개발
-- DB 관리
-- CI/CD 구축
-
-👿 **팀원 권성호**
-
-- Front-end
-- 전반적인 게임 작동방식 구현
-- 캐릭터 디자인
-- 3D 캐릭터 제작
-- 라즈베리파이와 프론트엔드 통신 담당
-
-🦝 **팀원 임영선**
-
-* IoT 담당
-* 초음파 센서를 이용한 터치기능 구현
-* openCV, face_recognition을 이용한 얼굴인식 기능 구현
-
-💘 **팀원 유지홍**
-
-- Front-end
-
-* 웹 페이지 제작
-* 게임 작동방식 구현
-* 라즈베리파이와 프론트엔드 통신 담당
-
-**🐨 팀원 김성령**
-
-* Back-end
-* 서버 API 개발
-* DB 관리
-* CI/CD 구축
-
-🎄 **팀원 박소정**
-
-* Front-end
-* 전반적인 게임 작동방식 구현
-* 테마맵 디자인
-* css 스타일링
+<table>
+    <tr>
+        <td height="140px" align="center">
+            <img src="https://em-content.zobj.net/thumbs/160/microsoft/310/owl_1f989.png" width="140px" /> <br><br> 양요셉 <br>(Back-End) </a> <br></td>
+        <td height="140px" align="center"> 
+            <img src="https://em-content.zobj.net/thumbs/160/microsoft/74/koala_1f428.png" width="140px" /> <br><br> 김성령 <br>(Back-End) </a> <br></td> 
+        <td height="140px" align="center">
+            <img src="https://us.123rf.com/450wm/get4net/get4net1709/get4net170903483/86683850-%ED%98%80%EA%B0%80-%EB%B6%99%EC%96%B4%EC%9E%88%EB%8A%94-%EC%95%85%EB%A7%88-%EA%B7%B8%EB%A6%BC-%EC%9D%B4%EB%AA%A8.jpg?ver=6" width="140px" /> <br><br> 권성호 <br>(Front-End) </a> <br></td>
+        <td height="140px" align="center"> 
+            <img src="https://www.emojiall.com/en/header-svg/%F0%9F%8E%84.png" width="140px" /> <br><br> 박소정 <br>(Front-End) </a> <br></td>
+        <td height="140px" align="center"> 
+            <img src="https://emoji-copy.com/imaj/2048/1F498.webp" width="140px" /> <br><br> 유지홍 <br>(Front-End) </a> <br></td> 
+        <td height="140px" align="center">
+            <img src="https://em-content.zobj.net/thumbs/160/microsoft/319/raccoon_1f99d.png" width="140px" /> <br><br> 임영선 <br>(IoT) </a> <br></td>
+    </tr>
+    <tr>
+        <td align="center" width="140px"> 👑팀장 <br> 서버 API 개발 <br> DB 관리 <br> CI/CD 
+        <td align="center" width="140px"> 서버 API 개발 <br> DB 관리 <br> CI/CD 
+        <td align="center" width="140px"> 3D 캐릭터 제작 <br> 라즈베리파이와 프론트엔드 통신 담당
+        <td align="center" width="140px"> 게임 작동방식 구현 <br> UI/UX 디자인 <br> Three.js <br> CSS 스타일링
+        <td align="center" width="140px"> 웹 페이지 제작<br> 게임 작동방식 구현 <br> 라즈베리파이와 프론트엔드 통신 담당
+        <td align="center" width="140px"> 초음파 센서를 이용한 터치기능 구현 <br> openCV, face_recognition을 이용한 얼굴인식 기능 구현
+    </tr>
+</table>
 
 </br>
 
@@ -104,33 +86,52 @@
 
 </br>
 
-### 서비스 화면
+### 🎞️서비스 화면
 
-**상상놀이터 메인 테마맵**
+![image-20230612022732109](./readme_assets/main_map.png)
+
+- 메인 지도 화면
+  - 각 캐릭터를 클릭(터치)하면 우주 게임 맵, 정글 게임 맵, 바다 게임 맵 및 이벤트성 크리스마스 마을 맵으로 이동 가능합니다.
+
+</br>
+![image-20230612023021737](./readme_assets/jungle1.png)
+
+![image-20230612023331766](./readme_assets/jungle2.png)
+
+- 게임 테마- 정글 <우가우가숲>
+  - 동물의 울음소리를 듣고 이름을 외치면 동물의 모습이 나타나며 응원의 메시지를 함께 외치는 시간을 가집니다.
+  - 음성 인식 기술을 활용하여 아이들의 음성을 파악합니다.
 
 </br>
 
-**게임 테마 - 정글 <우가우가숲>**
+![image-20230612023414511](./readme_assets/galaxy1.png)
+
+![image-20230612023500633](./readme_assets/galaxy2.png)
+
+- 게임 테마 - 우주 <갤럭시월드>
+  - 전반부 게임은 행성을 순서대로 클릭하여 잃어버린 색깔을 찾아주는 스토리입니다.
+  - 후반부 게임은 상단의 지시에 맞게 순서대로 플라스틱/ 종이/ 병을 터치하여 분리수거의 개념을 익히는 스토리입니다.
+  - 초음파 센서를 활용해 마우스 클릭이 아닌, 아이들의 손을 인식하여 터치를 인식합니다. 아이들이 손으로 터치하여 해당 이미지에 반응이 오면 게임이 진행되고 다음 스테이지로 넘어가게 됩니다.
 
 </br>
 
-**게임 테마 - 우주 <갤럭시월드>**
+![image-20230612023703614](./readme_assets/ocean.png)
+
+- 게임 테마 - 바다 <언더더씨>
+  - 초음파 IoT 센서를 활용한 터치 게임과 TeachableMachine 을 활용한 모션 인식 체조가 가능합니다.
+  - 전반부는 움직이는 상어를 5회 터치하여 쫓아내고 바다를 지킨다는 스토리의 게임입니다.
+  - 후반부는 간단한 율동 동작이 나와 아이들과 함께 체조를 하고, TeachableMachine을 통해 체조에 참여하는 아이들의 모습을 화면에 띄워주었습니다.
 
 </br>
 
-**게임 테마 - 바다 <언더더씨>**
+![image-20230612023606251](./readme_assets/christmas.png)
+
+- 이벤트 테마 - 크리스마스 <눈 내리는 마을>
+  - 얼굴 인식 기능을 탑재한 테마입니다.
 
 </br>
 
-**이벤트 테마 - 크리스마스 <눈 내리는 마을>**
 
-</br>
-
-**웹 페이지 - 회원가입**
-
-
-
-</br>
 
 ### 🛠 기술 환경
 
@@ -150,98 +151,45 @@ IoT: 라즈베리파이(Raspberry Pi 4 Model B Rev 1.2) Python(3.7.3) face_recog
 
 ### 📒 기술 스택
 
-​               
-
 ### Front
 
 <img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black"><img alt="MUI" src="https://img.shields.io/badge/MUI-007FFF?style=for-the-badge&logo=MUI&logoColor=white"><img  alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"> <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black">
 
-</br>
 
-​             
 
 ### Back
-
-</br>
 
 #### - Server
 
 <img src="https://img.shields.io/badge/JAVA 11-007396?style=for-the-badge&logo=java&logoColor=white"><img src="https://img.shields.io/badge/Spring Boot 2.7.1-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"><img alt="AWS" src="https://img.shields.io/badge/Spring Security 5.7.2-6DB33F?style=for-the-badge&logo=Spring Security&logoColor=white"><img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=Gradle&logoColor=white">
 
-</br>
+
 
 #### - DB
 
 <img alt="MariaDB" src="https://img.shields.io/badge/MariaDB 10.6.8-003545?style=for-the-badge&logo=MariaDB&logoColor=white"><img alt="MyBatis" src="https://img.shields.io/badge/MyBatis-000000?style=for-the-badge&logo=MyBatis&logoColor=white">
 
-</br>
+
 
 #### - Distribution
 
 <img alt="AWS" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white"><img alt="AWS" src="https://img.shields.io/badge/Amazon AWS-f7f7f7?style=for-the-badge&logo=Amazon AWS&logoColor=f89400"><img alt="Jenkins" src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white">
 
-</br>
 
-​                 
 
 ### IoT
-
-</br>
 
 #### - language
 
 <img alt="AWS" src="https://img.shields.io/badge/Raspberry Pi-2496ED?style=for-the-badge&logo=Raspberry Pi&logoColor=white"><img alt="Python" src="https://img.shields.io/badge/Debian version 10 (buster)-A81D33?style=for-the-badge&logo=Python&logoColor=white"><img alt="Debian" src="https://img.shields.io/badge/Python 3.7.3/3.8.12-3776AB?style=for-the-badge&logo=Debian&logoColor=white">
 
-</br>
+
 
 #### - equipment
 
 * HC-SR04(초음파 센서), SIG H703(웹캠)
 
-</br>
-
 #### - library
 
 <img alt="face recog" src="https://img.shields.io/badge/Face Recognition v 1.2.2-ffffff?style=for-the-badge&logoColor=white"><img alt="delib" src="https://img.shields.io/badge/dlib(19.24.99)-ffffff?style=for-the-badge&logoColor=white"><img alt="opencv" src="https://img.shields.io/badge/openCV(4.5.1)-ffffff?style=for-the-badge&logoColor=white"><img alt="Google Assistant SDK" src="https://img.shields.io/badge/Google Assistant SDK-ffffff?style=for-the-badge&&logo=Google&logoColor=black">
 
-</br>
-
-</br>
-
-## 🕋 프로젝트 구성도
-
-<img src="https://lab.ssafy.com/s07-webmobile3-sub2/S07P12D204/-/raw/master/db/ERD_imaginationPlayground.png">
-
-</br>
-
-
-
-## 🎪 기능 상세
-
-</br>
-
-### - 서비스 설명 / 주요기능
-
-1. 소아병동 아이들이 실시간 참여할 수 있는 IOT 놀이공간
-2. 약 6개의 테마, 각 맵마다 다른 게임으로
-아이들에게 다양한 체험 제공
-3. 표정 분석을 이용한 맞춤형 심리 진단 서비스 제공
-4. 정서 안정 및 스트레스 완화를 위한 색칠 놀이 기능
-5. 아이의 그림놀이, AI와 대화 자료를 바탕으로 한
-통계 데이터 열람 기능
-6. 빔 프로젝터, 키오스크 또는 태블릿 등 확장성이 용이한
-웹 서비스로 접근성 증대
-
-</br>
-
-#### - 서비스의 특징 / 독창성
-
-1. 개인모드와 공용모드로 나눠져있어 개인 또는 다수가 동시에 플레이 가능
-2. 6종류의 다양한 테마를 구성하여 아이들이 다양한 환경에서 게임 플레이 가능
-3. 개인모드의 미술놀이와 상담 및 친구 기능은 병원과 연계하여 아이들의 심리 상태 파악에 활용
-4. 단순한 유희성 게임이 아닌 놀이와 교육을 통합한 게임으로 아이들의 사회성, 신체, 인지 발달에 기여
-5. 프로젝트 빔을 사용하여 화면을 보여주고 초음파 센서를 활용하여 터치패널이 없는 화면에서도 터치가 가능하도록 구현
-6. 회원가입 시에 등록한 아이 얼굴 사진을 토대로 얼굴인식을 한 후 사용자와 상호작용
-7. 모든 과정은 자동으로 진행되지만 사용자가 수동으로도 조작할 수 있는 시스템
-8. 블렌더로 3D 캐릭터를 제작함으로써 생동감 증대
-9. 웹서비스 기반의 확장 가능한 서비스, Oauth2와 JWT를 활용한 보안 및 접근성 증대
