@@ -44,7 +44,11 @@
 
 * **배포 환경**
 
-  - URL: https://i7d204.p.ssafy.io/
+  - URL : https://i7d204.p.ssafy.io/
+  
+* **시연 영상**
+
+  * URL : https://youtu.be/CdfojzqRaxo
 
 </br>
 
@@ -94,7 +98,8 @@
   - 각 캐릭터를 클릭(터치)하면 우주 게임 맵, 정글 게임 맵, 바다 게임 맵 및 이벤트성 크리스마스 마을 맵으로 이동 가능합니다.
 
 </br>
-![image-20230612024640252](./readme_assets/jungle.png)
+
+<img src="https://github.com/sojung13/Imaginary-Playground/blob/master/readme_assets/jungle.png?raw=true"/>
 
 ![image-20230612023331766](./readme_assets/jungle2.png)
 
@@ -130,8 +135,6 @@
   - 얼굴 인식 기능을 탑재한 테마입니다.
 
 </br>
-
-
 
 ### 🛠 기술 환경
 
